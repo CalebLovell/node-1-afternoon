@@ -12,5 +12,5 @@ app.get(`${baseUrl}`, mc.read);
 app.put(`${baseUrl}/:id`, mc.update);
 app.delete(`${baseUrl}/:id`, mc.delete);
 
-const PORT = 7999;
+const PORT = 3001;
 app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
